@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		0E97C7622809500D006E77D0 /* StocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C7612809500D006E77D0 /* StocksApp.swift */; };
-		0E97C7642809500D006E77D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C7632809500D006E77D0 /* ContentView.swift */; };
+		0E97C7642809500D006E77D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C7632809500D006E77D0 /* MainView.swift */; };
 		0E97C76628095010006E77D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C76528095010006E77D0 /* Assets.xcassets */; };
 		0E97C76928095010006E77D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C76828095010006E77D0 /* Preview Assets.xcassets */; };
+		0E97C77228096E0A006E77D0 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C77128096E0A006E77D0 /* MainViewViewModel.swift */; };
+		0E97C77528096E54006E77D0 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C77428096E54006E77D0 /* Stock.swift */; };
+		0EBE9313282FBD4C009E2624 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE9312282FBD4C009E2624 /* View.swift */; };
+		0EBE9315282FBD6C009E2624 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE9314282FBD6C009E2624 /* UIApplication.swift */; };
+		0EBE9318282FC642009E2624 /* StockCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE9317282FC641009E2624 /* StockCardView.swift */; };
+		0EBE931A282FC671009E2624 /* StocksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE9319282FC671009E2624 /* StocksListView.swift */; };
+		0EBE931C282FC688009E2624 /* FindStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE931B282FC688009E2624 /* FindStockView.swift */; };
+		0EBE9320282FC9D1009E2624 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE931F282FC9D1009E2624 /* LineView.swift */; };
+		0EC01E44283E4EF200BCABBD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC01E43283E4EF200BCABBD /* CardView.swift */; };
+		0ED4DC64283E75CA00524F02 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4DC63283E75CA00524F02 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E97C75E2809500D006E77D0 /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E97C7612809500D006E77D0 /* StocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksApp.swift; sourceTree = "<group>"; };
-		0E97C7632809500D006E77D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E97C7632809500D006E77D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0E97C76528095010006E77D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E97C76828095010006E77D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E97C77128096E0A006E77D0 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		0E97C77428096E54006E77D0 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		0EBE9312282FBD4C009E2624 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		0EBE9314282FBD6C009E2624 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		0EBE9317282FC641009E2624 /* StockCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StockCardView.swift; path = Components/StockCardView.swift; sourceTree = SOURCE_ROOT; };
+		0EBE9319282FC671009E2624 /* StocksListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StocksListView.swift; path = Components/StocksListView.swift; sourceTree = SOURCE_ROOT; };
+		0EBE931B282FC688009E2624 /* FindStockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindStockView.swift; path = Components/FindStockView.swift; sourceTree = SOURCE_ROOT; };
+		0EBE931F282FC9D1009E2624 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineView.swift; path = Components/LineView.swift; sourceTree = SOURCE_ROOT; };
+		0EC01E43283E4EF200BCABBD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0ED4DC63283E75CA00524F02 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				0E97C7602809500D006E77D0 /* Stocks */,
+				0ED4DC65283E75CF00524F02 /* Services */,
 				0E97C75F2809500D006E77D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,10 +72,13 @@
 		0E97C7602809500D006E77D0 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
-				0E97C7612809500D006E77D0 /* StocksApp.swift */,
-				0E97C7632809500D006E77D0 /* ContentView.swift */,
-				0E97C76528095010006E77D0 /* Assets.xcassets */,
 				0E97C76728095010006E77D0 /* Preview Content */,
+				0E97C7612809500D006E77D0 /* StocksApp.swift */,
+				0E97C76528095010006E77D0 /* Assets.xcassets */,
+				0EBE9311282FBD3B009E2624 /* Extansions */,
+				0E97C77328096E41006E77D0 /* Models */,
+				0E97C76F28096DE6006E77D0 /* Views */,
+				0E97C77628096E75006E77D0 /* Components */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -65,6 +89,60 @@
 				0E97C76828095010006E77D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E97C76F28096DE6006E77D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E97C77028096DF0006E77D0 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E97C77028096DF0006E77D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E97C77128096E0A006E77D0 /* MainViewViewModel.swift */,
+				0E97C7632809500D006E77D0 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E97C77328096E41006E77D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E97C77428096E54006E77D0 /* Stock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E97C77628096E75006E77D0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE9317282FC641009E2624 /* StockCardView.swift */,
+				0EC01E43283E4EF200BCABBD /* CardView.swift */,
+				0EBE931B282FC688009E2624 /* FindStockView.swift */,
+				0EBE9319282FC671009E2624 /* StocksListView.swift */,
+				0EBE931F282FC9D1009E2624 /* LineView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0EBE9311282FBD3B009E2624 /* Extansions */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE9312282FBD4C009E2624 /* View.swift */,
+				0EBE9314282FBD6C009E2624 /* UIApplication.swift */,
+			);
+			path = Extansions;
+			sourceTree = "<group>";
+		};
+		0ED4DC65283E75CF00524F02 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4DC63283E75CA00524F02 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E97C7642809500D006E77D0 /* ContentView.swift in Sources */,
+				0ED4DC64283E75CA00524F02 /* NetworkManager.swift in Sources */,
+				0E97C77228096E0A006E77D0 /* MainViewViewModel.swift in Sources */,
+				0E97C7642809500D006E77D0 /* MainView.swift in Sources */,
+				0EBE9313282FBD4C009E2624 /* View.swift in Sources */,
+				0EBE931C282FC688009E2624 /* FindStockView.swift in Sources */,
+				0EBE931A282FC671009E2624 /* StocksListView.swift in Sources */,
+				0E97C77528096E54006E77D0 /* Stock.swift in Sources */,
+				0EBE9318282FC642009E2624 /* StockCardView.swift in Sources */,
 				0E97C7622809500D006E77D0 /* StocksApp.swift in Sources */,
+				0EBE9320282FC9D1009E2624 /* LineView.swift in Sources */,
+				0EC01E44283E4EF200BCABBD /* CardView.swift in Sources */,
+				0EBE9315282FBD6C009E2624 /* UIApplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +395,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
